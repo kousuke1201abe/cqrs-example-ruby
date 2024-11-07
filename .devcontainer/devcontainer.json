@@ -1,0 +1,15 @@
+{
+    "name": "Development Environment",
+    "dockerComposeFile": [
+        "../compose.yml"
+    ],
+    "service": "main",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "shopify.ruby-lsp"
+            ]
+        }
+    },
+    "workspaceFolder": "/workspace/cqrs-example-ruby"
+}
